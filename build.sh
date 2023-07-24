@@ -5,7 +5,7 @@ set -e
 # The commented lines below are in place to easily switch to the official AzureHound repo once the PR
 # to add this functionality is merged.
 cd /tmp
-git clone -b hh-fork/feat-az-managed-id https://github.com/0xffhh/AzureHound.git
+git clone https://github.com/0xffhh/AzureHound.git
 # Once the PR is merged and a new build is made, you can use the main repo. 
 # git clone https://github.com/BloodHoundAD/AzureHound.git
 cd /tmp/AzureHound/
